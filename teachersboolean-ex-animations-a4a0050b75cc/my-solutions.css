@@ -32,8 +32,37 @@
     transform: scale(0.5);
 }
 .ex-6-img{
-    transition: 1s;
+    transition: 0s;
 }
 .ex-6-img:hover{
     filter: grayscale(100%);
+}
+.ex-7-img{
+    transition: 2s;
+}
+.ex-7-img:hover{
+    filter: grayscale(100%);
+}
+.ex-8-img{
+ transition: 2s;
+}
+.ex-8-img:hover{
+    filter: grayscale(.5) sepia(.4);
+    border-radius: 20px;
+}
+.ex-9-img {
+    transition: 2s;
+}
+.ex-9-img:hover {
+    filter: grayscale(.5) sepia(.4);
+    border-radius: 20px;
+    transform: scale(2);
+}
+.ex-10-icon {
+    animation: spin 2s linear infinite;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(1turn);
+    }
 }
